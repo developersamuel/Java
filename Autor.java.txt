@@ -12,6 +12,7 @@ package modelo;
 public class Autor {
     private int idAutor;
     private String nome;
+    private int idade;
 
     /**
      * @return the idAutor
@@ -39,6 +40,20 @@ public class Autor {
      */
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+        /**
+     * @param idade the idade to set
+     */
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    /**
+     * @return the idade
+     */
+    public int getIdade() {
+        return idade;
     }
     
    
